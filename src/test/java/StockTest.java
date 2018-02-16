@@ -7,7 +7,7 @@ public class StockTest {
 
 	private Stock stock;
 
-	/*@BeforeEach
+	@BeforeEach
 	public void setup() {
 		stock = new Stock("AAPL", "Apple Inc.");
 		stock.setCurrentPrice(171.37);
@@ -21,5 +21,5 @@ public class StockTest {
 		assertEquals(171.37, stock.getCurrentPrice());
 		assertEquals(171.05, stock.getPreviousClosingPrice());
 		assertEquals(0.1867304662426289, stock.getChangePercent());
-	}*/
+	}
 }

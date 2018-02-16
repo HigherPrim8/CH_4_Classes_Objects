@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 public class RectangleTest {
 
-	/*@Test
+	@Test
 	public void defaultRectangleTest() {
 		Rectangle rectangle = new Rectangle();
 		assertEquals(1, rectangle.getHeight());
@@ -19,6 +19,6 @@ public class RectangleTest {
 		assertEquals(2, rectangle.getWidth());
 		assertEquals(8, rectangle.getArea());
 		assertEquals(12, rectangle.getPerimeter());
-	}*/
+	}
 
 }
